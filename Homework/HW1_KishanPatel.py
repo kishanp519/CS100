@@ -97,7 +97,7 @@ print("The colleges I've attended are:", colleges)
               '(4/3) * math.pi * math.pow(5,3)' -- Returned 523.60
             
 2) - The total wholesale cost for 60 copies would be $945.45.
-    - Input: '((24.95 * .60) * 60) + 3 + (.75 * 59)' -- Returned 945.45.
+     - Input: '((24.95 * .60) * 60) + 3 + (.75 * 59)' -- Returned 945.45.
     
 3) - After starting your run at 6:52 AM, you spent a total of 38.1 minutes running which led to you getting home at 
      7:30 AM for breakfast.
