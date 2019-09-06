@@ -48,7 +48,7 @@ print("The colleges I've attended are:", colleges)
      - Input: '+2' -- Returned 2.
    - If you put two +'s between a number it assumes that the second number is positive and continues to perform the
      addition of the two numbers.
-    - Input: '2++2' -- Returned 4.
+     - Input: '2++2' -- Returned 4.
     
 4) - If you add a leading zero to a number, you get a "SyntaxError: invalid token" error.
      - Input: '011' -- Returned error above.
