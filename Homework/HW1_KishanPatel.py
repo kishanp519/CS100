@@ -10,7 +10,7 @@ day = 19
 year = 1999
 
 # 5c) - College GPAs
-sbu = 3.40
+sbu = 3.50
 bcc = 4.0
 njit = 3.88
 
@@ -65,11 +65,45 @@ print("The colleges I've attended are:", colleges)
      - Input: '10 / 1.61' -- Returned 6.21.
      
 3) - Average pace per mile is 6 minutes and 53 seconds.
-   - Input: '(2562 / 6.21) / 60' -- Returned  6.876.
-            '0.876 * 60' -- Returned 52.56.
+     - Input: '(2562 / 6.21) / 60' -- Returned  6.876.
+              '0.876 * 60' -- Returned 52.56.
+   - Average speed in miles per hour is 8.73 mph.
+     - Input: '6.21 / ((42 / 60) + (42 / 60 / 60))' -- Returned 8.73. 
 
 ------------------------------------------------------------------------------------------------------------------------
 ** Exercise 2.1 **
 
+1) - When you do '42 = n', you get a "SyntaxError: can't assign to literal" error. You can't declare a number to a
+   variable in that format. It must be '[variableName = number]'.
+     - Input: '42 = n' -- Returned error above.
+     
+2) - When you so 'x = y = 1', you set variables x and y to the value 1.
+     - Input: 'x = y = 1' -- Set variables x and y both to 1.
+     
+3) - When you put a semi-colon at the end of a Python statement, it still runs the statement how it normally would.
+     - Input: 'print("Hello World");' -- Printed 'Hello World'.
+     
+4) - When you put a period at the end of a Python statement, you get a "SyntaxError: invalid syntax" error.
+     - Input: 'print("Hello World").' -- Printed error above.
+     
+5) - If you try multiplying x and y by just putting the letters next to each other, you get a "NameError: name 'xy' is 
+     not defined" error because the shell assumes 'xy' is a variable.
+     - Input 'xy' (initialized x = 2, and y = 3) -- Printed error above.
+------------------------------------------------------------------------------------------------------------------------
+** Exercise 2.2 **
 
+1) - The volume of a sphere with radius 5 is 523.60.
+     - Input: 'import math'
+              '(4/3) * math.pi * math.pow(5,3)' -- Returned 523.60
+            
+2) - The total wholesale cost for 60 copies would be $945.45.
+    - Input: '((24.95 * .60) * 60) + 3 + (.75 * 59)' -- Returned 945.45.
+    
+3) - After starting your run at 6:52 AM, you spent a total of 38.1 minutes running which led to you getting home at 
+     7:30 AM for breakfast.
+     - Input: 'timeSpentRunning = ((2 *(8 * 60 + 15)) + (3 * (7 * 60 + 12))) / 60'
+              'import datetime'
+              'time = datetime.timedelta(hours = 6,minutes = 52) + datetime.timedelta(minutes = timeSpentRunning)' 
+              'str(time)' -- Returned 7:30:06.
+------------------------------------------------------------------------------------------------------------------------   
 """
