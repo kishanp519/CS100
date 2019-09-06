@@ -1,7 +1,7 @@
 """
 Kishan Patel
 CS 100 - Section 019, Fall 2019
-HW 01, September 10th 2019
+HW 01 - September 10th, 2019
 """
 
 # 5b) - My Birthday
