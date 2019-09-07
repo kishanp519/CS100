@@ -35,14 +35,14 @@ print("The colleges I've attended are:", colleges)
 ** Exercise 1.1 **
 
 1) - When you leave out one of the parentheses, you get the "SyntaxError: Missing parentheses in call to 'print'" error. 
-     - Input: 'print colleges)' -- Returned error above.
+     - Input: 'print colleges)' -- Printed error above.
    - When you leave out both of the parenthesis, you get a "SyntaxError: Missing parentheses in call to 'print'" error.
-     - Input: 'print colleges' -- Returned error above.
+     - Input: 'print colleges' -- Printed error above.
 
 2) - When you leave out one of the quotation marks, you get a "SyntaxError: EOL while scanning string literal" error.
-     - Input: print("Hello World) -- Returned error above
+     - Input: print("Hello World) -- Printed error above.
    - When you leave out both of the quotation marks, you get a "SyntaxError: invalid syntax" error.
-     - Input: print(Hello World) -- Returned error above.
+     - Input: print(Hello World) -- Printed error above.
 
 3) - If you put a plus before a number it will just negate the + and leave the number as positive.
      - Input: '+2' -- Returned 2.
@@ -51,10 +51,10 @@ print("The colleges I've attended are:", colleges)
      - Input: '2++2' -- Returned 4.
     
 4) - If you add a leading zero to a number, you get a "SyntaxError: invalid token" error.
-     - Input: '011' -- Returned error above.
+     - Input: '011' -- Printed error above.
      
 5) - If you have two values with no operator between them, you get a "SyntaxError: invalid syntax" error.
-     - Input: '2 2' -- Returned error above.
+     - Input: '2 2' -- Printed error above.
 ------------------------------------------------------------------------------------------------------------------------
 ** Exercise 1.2 **
 
@@ -75,7 +75,7 @@ print("The colleges I've attended are:", colleges)
 
 1) - When you do '42 = n', you get a "SyntaxError: can't assign to literal" error. You can't declare a number to a
    variable in that format. It must be '[variableName = number]'.
-     - Input: '42 = n' -- Returned error above.
+     - Input: '42 = n' -- Printed error above.
      
 2) - When you so 'x = y = 1', you set variables x and y to the value 1.
      - Input: 'x = y = 1' -- Set variables x and y both to 1.
