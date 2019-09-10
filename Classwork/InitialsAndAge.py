@@ -1,7 +1,7 @@
 """
 Kishan Patel
 CS 100 - Section 019, Fall 2019
-Lecture 2 & 3 - September 5th/10th, 2019
+Lectures 2 & 3 - September 5th/10th, 2019
 """
 
 first = input("Please enter your first name: ")
