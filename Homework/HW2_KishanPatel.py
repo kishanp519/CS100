@@ -20,4 +20,4 @@ containsPersian = "Persian" in dog_breeds
 print("Dog Breeds:", dog_breeds)
 print("Herding Dogs:", herding_dogs)
 print("Tiny Dogs:", tiny_dogs)
-print("Is 'Persian' in the list of dog breeds?", containsPersian)
+print("Is 'Persian' in the list of dog breeds?:", containsPersian)
