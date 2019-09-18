@@ -15,7 +15,7 @@ pen.pu()
 pen.goto(-350, 0)
 pen.pd()
 
-#Triangle
+# Triangle
 pen.color("red")
 for x in range(3):
     pen.left(360 / 3)
@@ -25,7 +25,7 @@ pen.pu()
 pen.fd(150)
 pen.pd()
 
-#Square
+# Square
 pen.color("blue")
 for x in range(4):
     pen.left(360 / 4)
@@ -35,7 +35,7 @@ pen.pu()
 pen.fd(150)
 pen.pd()
 
-#Pentagon
+# Pentagon
 pen.color("green")
 for x in range(5):
     pen.left(360 / 5)
@@ -45,7 +45,8 @@ pen.pu()
 pen.goto(200, 50)
 pen.pd()
 
-#Concentric Circles
+# Concentric Circles
+pen.color("black")
 for radius in range(1, 250, 50):
     pen.right(90)
     pen.fd(radius)
@@ -55,14 +56,14 @@ for radius in range(1, 250, 50):
     pen.pu()
     pen.goto(200, 50)
 
+# Math Operations
 factorial = math.factorial(100)
 logValue = math.log(1000000, 2)
 greatestDivisor = math.gcd(63, 49)
 
-print("!100:", factorial)
+print("100!:", factorial)
 print("log(1000000):", logValue)
 print("Greatest Common Divisor of 63 and 49:", greatestDivisor)
-
 
 paper.exitonclick()
 time.sleep(6000)

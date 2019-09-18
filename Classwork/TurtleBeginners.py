@@ -4,8 +4,8 @@ CS 100 - Section 019, Fall 2019
 Lecture 5 - September 17th, 2019
 """
 
-import turtle
 import time
+import turtle
 
 paper = turtle.Screen()
 pen = turtle.Turtle()
