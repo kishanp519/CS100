@@ -3,6 +3,8 @@ Kishan Patel
 CS 100 - Section 019, Fall 2019
 HW 03 - September 20th, 2019
 """
+
+import math
 import time
 import turtle
 
@@ -53,7 +55,13 @@ for radius in range(1, 250, 50):
     pen.pu()
     pen.goto(200, 50)
 
+factorial = math.factorial(100)
+logValue = math.log(1000000, 2)
+greatestDivisor = math.gcd(63, 49)
 
+print("!100:", factorial)
+print("log(1000000):", logValue)
+print("Greatest Common Divisor of 63 and 49:", greatestDivisor)
 
 
 paper.exitonclick()
