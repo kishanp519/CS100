@@ -48,5 +48,4 @@ pen.forward(75)
 pen.left(90)
 
 paper.exitonclick()
-
 time.sleep(6000)

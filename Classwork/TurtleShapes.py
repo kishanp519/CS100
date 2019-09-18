@@ -38,5 +38,4 @@ for x in range(sides):
     pen.right(360 / sides)
 
 paper.exitonclick()
-
 time.sleep(6000)
