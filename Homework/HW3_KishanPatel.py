@@ -15,31 +15,20 @@ pen.pu()
 pen.goto(-350, 0)
 pen.pd()
 
-# Triangle
+#Shapes
 pen.color("red")
-for x in range(3):
-    pen.left(360 / 3)
-    pen.fd(100)
-
-pen.pu()
-pen.fd(150)
-pen.pd()
-
-# Square
-pen.color("blue")
-for x in range(4):
-    pen.left(360 / 4)
-    pen.fd(100)
-
-pen.pu()
-pen.fd(150)
-pen.pd()
-
-# Pentagon
-pen.color("green")
-for x in range(5):
-    pen.left(360 / 5)
-    pen.fd(100)
+for sideLength in range(3, 6):
+    if sideLength == 4:
+        pen.color("blue")
+    if sideLength == 5:
+        pen.color("green")
+    for length in range(sideLength):
+        pen.left(360 / sideLength)
+        pen.fd(100)
+    if sideLength < 5:
+        pen.pu()
+        pen.fd(150)
+        pen.pd()
 
 pen.pu()
 pen.goto(200, 50)
@@ -47,7 +36,7 @@ pen.pd()
 
 # Concentric Circles
 pen.color("black")
-for radius in range(1, 250, 50):
+for radius in range(0, 250, 50):
     pen.right(90)
     pen.fd(radius)
     pen.right(270)
