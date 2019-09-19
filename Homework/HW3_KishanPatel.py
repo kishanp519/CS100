@@ -15,7 +15,7 @@ pen.pu()
 pen.goto(-350, 0)
 pen.pd()
 
-#Shapes
+# Shapes
 pen.color("red")
 for sideLength in range(3, 6):
     if sideLength == 4:
