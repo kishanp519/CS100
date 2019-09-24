@@ -11,18 +11,21 @@ paper = turtle.Screen()
 pen = turtle.Turtle()
 
 
-def draw_shape(pen, sides, sideLength, gap, amount):
+
+def draw_shape(pen, sides, sideLength, increment, gap, amount):
     for i in range(amount):
         for x in range(sides):
-            pen.fd(sideLength)
+            pen.fd(sideLength + increment)
             pen.rt(360 / sides)
-        pen.pu()
-        pen.fd(sideLength + gap)
-        pen.pd()
+        sideLength = sideLength + increment
+       # pen.pu()
+       # pen.fd(sideLength + gap)
+       # pen.pd()
 
 
 sides = int(input("Enter the amount of sides: "))
 sideLength = int(input("Enter the length of one side: "))
+increment = int(input("Enter the amount to increment each side: "))
 amount = int(input("Enter the amount of shapes: "))
 gap = 0
 
@@ -30,7 +33,8 @@ if amount > 1:
     gap = int(input("Enter the gap between each shape: "))
 
 pen.color("red")
-draw_shape(pen, sides, sideLength, gap, amount)
+draw_shape(pen, sides, sideLength, increment, gap, amount)
 
 paper.exitonclick()
 time.sleep(6000)
+
