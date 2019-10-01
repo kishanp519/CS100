@@ -41,9 +41,42 @@ print("Amount of A's:", counter)
 print("Grades:", aGrades)
 
 nameList = ["John", "Jake", "David", "Abakir", "Brain"]
-initials = "";
+initials = ""
 
 for name in nameList:
     initials += name[0] + "" + name[-1]
 
 print(initials)
+
+counter = 0
+for name in nameList:
+    if len(name) > 4:
+        continue
+    if "a" in name:
+        counter += 1
+
+print("'a' Counter:", counter)
+
+message = "how are you"
+vowels = ['a', 'e', 'i', 'o', 'u']
+counter = 0;
+
+for i in range(len(message)):
+    for vow in vowels:
+        if message[i] == vow:
+            counter += 1
+
+print("Vowel Counter:", counter)
+
+vowelPositions = []
+for i in range(len(message)):
+    for vow in vowels:
+        if message[i] == vow:
+            vowelPositions.append(i)
+
+print("Positions:", vowelPositions)
+
+
+
+
+
