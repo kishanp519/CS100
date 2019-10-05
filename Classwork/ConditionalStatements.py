@@ -4,7 +4,6 @@ CS 100 - Section 019, Fall 2019
 Lecture 8 - September 26th, 2019
 """
 
-
 age = int(input("What's your age?: "))
 
 if age < 0 or age > 120:
@@ -75,8 +74,3 @@ for i in range(len(message)):
             vowelPositions.append(i)
 
 print("Positions:", vowelPositions)
-
-
-
-
-

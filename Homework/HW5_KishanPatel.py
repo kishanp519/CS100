@@ -28,5 +28,3 @@ for eachLetter in range(len(horton)):
     for vowel in range(len(vowels)):
         if horton[eachLetter] == vowels[vowel]:
             print("-", vowels[vowel])
-
-

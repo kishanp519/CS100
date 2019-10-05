@@ -11,16 +11,15 @@ paper = turtle.Screen()
 pen = turtle.Turtle()
 
 
-
 def draw_shape(pen, sides, sideLength, increment, gap, amount):
     for i in range(amount):
         for x in range(sides):
             pen.fd(sideLength + increment)
             pen.rt(360 / sides)
         sideLength = sideLength + increment
-       # pen.pu()
-       # pen.fd(sideLength + gap)
-       # pen.pd()
+    # pen.pu()
+    # pen.fd(sideLength + gap)
+    # pen.pd()
 
 
 sides = int(input("Enter the amount of sides: "))
@@ -37,4 +36,3 @@ draw_shape(pen, sides, sideLength, increment, gap, amount)
 
 paper.exitonclick()
 time.sleep(6000)
-

@@ -29,7 +29,6 @@ def flag_lines(pen, sides, length, amount):
         pen.pd()
 
 
-
 flag_lines(pen, sides, length, amount)
 pen.setheading(90)
 flag_lines(pen, sides, length, amount)
