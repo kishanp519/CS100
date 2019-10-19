@@ -8,7 +8,7 @@ HW 06 - October 8th, 2019
 def hasFinalLetter(strList, letters):
     validString = []
     for str in strList:
-        for letter in letters:
+        for letter in  letters:
             if str[-1] == letter:
                 validString.append(str)
     return validString
