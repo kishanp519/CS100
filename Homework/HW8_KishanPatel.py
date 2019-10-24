@@ -65,12 +65,18 @@ def enterNewPassword():
     print("Correct Password: ", password)
 
 
-# print("Problem 1: ", twoWords(4, 'B'))
+print("Problem 1: ", twoWords(4, 'B'))
+
 print("")
-# print("Problem 2: ", twoWordsV2(4, 'B'))
+
+print("Problem 2: ", twoWordsV2(4, 'B'))
+
 print("")
+
 print("Problem 3: (below)")
-# enterNewPassword()
+enterNewPassword()
+
+print("")
 
 print("Problem 4:")
 print("I'm thinking of a number in the range 0-50. You have five tries to guess it.")
